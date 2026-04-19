@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import { apiFetch } from '../services/api';
 import CalendarHeatmap from 'react-calendar-heatmap';
 import 'react-calendar-heatmap/dist/styles.css';
-import { Plus, CheckCircle, Circle, BarChart3, PieChart as PieChartIcon, LayoutDashboard, LogOut, TrendingUp, Award, Zap, Activity } from 'lucide-react';
+import { Plus, CheckCircle, Circle, BarChart3, PieChart as PieChartIcon, LogOut, TrendingUp, Activity } from 'lucide-react';
 import { format, startOfToday, subDays, eachDayOfInterval, isSameDay } from 'date-fns';
 import { 
   BarChart, 
@@ -14,7 +14,6 @@ import {
   PieChart, 
   Pie, 
   Cell,
-  Legend,
   AreaChart,
   Area,
   CartesianGrid,

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { apiFetch } from '../services/api';
-import { LayoutDashboard, Lock, Mail, Clock, UserPlus } from 'lucide-react';
+import { Lock, Mail, Clock, UserPlus } from 'lucide-react';
 
 const Register = () => {
   const [email, setEmail] = useState('');
